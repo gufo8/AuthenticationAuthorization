@@ -1,0 +1,10 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Successfull Sign Up";
+}
+
+<div class="d-flex flex-column text-center">
+    <p>User with e-mail <span class="text-primary">@Model</span> was successfully registered</p>
+    <a asp-action="Index" asp-controller="Home" class="text-primary">Go to the shop</a>
+</div>
